@@ -47,6 +47,8 @@ public class Coversiones {
         // 4. Conversión del estado de estudiante activo (Boolean) a String
         String estudianteActivoComoString = EstudianteActivo.toString();
         System.out.println("EstudianteActivo: " + estudianteActivoComoString + " (Tipo original: Boolean a convertido a String)");
+        
+        // 5. Comentario pos produccion en clase de programacion Maycol Figueroa
     }
 }
 
