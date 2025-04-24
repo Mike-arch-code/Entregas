@@ -49,7 +49,7 @@ public class Coversiones {
         System.out.println("EstudianteActivo: " + estudianteActivoComoString + " (Tipo original: Boolean a convertido a String)");
         
         // 5. Comentario post produccion en clase de programacion Maycol Figueroa
-        //6.Comentario en respuesta al comentario anterior de maycol . 
+        //6.Comentario en respuesta al comentario anterior de maycol . ..
     }
 }
 
