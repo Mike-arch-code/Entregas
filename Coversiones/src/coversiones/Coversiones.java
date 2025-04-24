@@ -38,7 +38,7 @@ public class Coversiones {
 
         // 2. Conversión de la edad (Integer) a un carácter ASCII
         char edadComoChar = (char)(int)Edad;
-        System.out.println("Edad como carácter ASCII: '" + edadComoChar + "' (Tipo original: Integer → convertido a char usando código ASCII)");
+        System.out.println("Edad como caracter ASCII: '" + edadComoChar + "' (Tipo original: Integer → convertido a char usando código ASCII)");
 
         // 3. Conversión de la estatura (Float) a Integer eliminando los decimales
         Integer estaturaComoEntero = Estatura.intValue();
