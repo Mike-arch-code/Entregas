@@ -20,8 +20,7 @@ Para dar este resltado en consola con algunos errores por el UTF8 faltante de ne
 
 
 para corregir esto se cambio el caracter...
-
-![imagen](https://github.com/user-attachments/assets/336b8301-9a1d-45df-9fe0-9a7655f5af10)
+![imagen](https://github.com/user-attachments/assets/aa2c5372-ae34-4fe7-b258-85b307ad371c)
 
 
 Finalmente, después de cambiar el carácter, así fue el resultado en consola.
