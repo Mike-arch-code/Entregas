@@ -25,7 +25,7 @@ public class Coversiones {
 
         // Mostrar los valores y sus tipos originales
         System.out.println("Nombre: " + Nombre + " (Tipo: " + Nombre.getClass().getSimpleName() + ")");
-        System.out.println("Edad: " + Peso + " (Tipo: " + Peso.getClass().getSimpleName() + ")");
+        System.out.println("Peso: " + Peso + " (Tipo: " + Peso.getClass().getSimpleName() + ")");
         System.out.println("Estatura: " + Estatura + " (Tipo: " + Estatura.getClass().getSimpleName() + ")");
         System.out.println("EstudianteActivo: " + EstudianteActivo + " (Tipo: " + EstudianteActivo.getClass().getSimpleName() + ")");
 
