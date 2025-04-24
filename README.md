@@ -19,7 +19,7 @@ Para dar este resltado en consola con algunos errores por el UTF8 faltante de ne
 ![imagen](https://github.com/user-attachments/assets/42dca634-4496-4cab-a1fc-d0db0737e0b7)
 
 
-para orregir esto se cambio el caracter...
+para corregir esto se cambio el caracter...
 
 ![imagen](https://github.com/user-attachments/assets/336b8301-9a1d-45df-9fe0-9a7655f5af10)
 
