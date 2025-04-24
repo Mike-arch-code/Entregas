@@ -19,13 +19,13 @@ public class Coversiones {
     public static void main(String[] args) {
         // Declaración de variables con diferentes tipos de datos
         String Nombre = "Santiago";
-        Integer Edad = 23; 
+        Integer Peso  = 54 ; 
         Float Estatura = 1.69f;
         Boolean EstudianteActivo = true;
 
         // Mostrar los valores y sus tipos originales
         System.out.println("Nombre: " + Nombre + " (Tipo: " + Nombre.getClass().getSimpleName() + ")");
-        System.out.println("Edad: " + Edad + " (Tipo: " + Edad.getClass().getSimpleName() + ")");
+        System.out.println("Edad: " + Peso + " (Tipo: " + Peso.getClass().getSimpleName() + ")");
         System.out.println("Estatura: " + Estatura + " (Tipo: " + Estatura.getClass().getSimpleName() + ")");
         System.out.println("EstudianteActivo: " + EstudianteActivo + " (Tipo: " + EstudianteActivo.getClass().getSimpleName() + ")");
 
@@ -34,19 +34,19 @@ public class Coversiones {
         for (int i = 0; i < Nombre.length(); i++) {
             System.out.print((int) Nombre.charAt(i) + " ");
         }
-        System.out.println("(Tipo original: String → convertido a códigos ASCII enteros)");
+        System.out.println("(Tipo original: String a convertido a codigos ASCII enteros)");
 
         // 2. Conversión de la edad (Integer) a un carácter ASCII
-        char edadComoChar = (char)(int)Edad;
-        System.out.println("Edad como caracter ASCII: '" + edadComoChar + "' (Tipo original: Integer → convertido a char usando código ASCII)");
+        char edadComoChar = (char)(int)Peso;
+        System.out.println("Edad como caracter ASCII: '" + edadComoChar + "' (Tipo original: Integer a convertido a char usando codigo ASCII)");
 
         // 3. Conversión de la estatura (Float) a Integer eliminando los decimales
         Integer estaturaComoEntero = Estatura.intValue();
-        System.out.println("Estatura: " + estaturaComoEntero + " (Tipo original: Float → convertido a Integer)");
+        System.out.println("Estatura: " + estaturaComoEntero + " (Tipo original: Float a convertido a Integer)");
 
         // 4. Conversión del estado de estudiante activo (Boolean) a String
         String estudianteActivoComoString = EstudianteActivo.toString();
-        System.out.println("EstudianteActivo: " + estudianteActivoComoString + " (Tipo original: Boolean → convertido a String)");
+        System.out.println("EstudianteActivo: " + estudianteActivoComoString + " (Tipo original: Boolean a convertido a String)");
     }
 }
 
