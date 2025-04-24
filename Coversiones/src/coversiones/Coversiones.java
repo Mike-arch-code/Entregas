@@ -12,6 +12,9 @@ package coversiones;
  */
 public class Coversiones {
 
+    public static double calcularTangente(double anguloEnRadianes) {
+        return Math.tan(anguloEnRadianes);
+    }
     /**
      * Método principal que ejecuta la lógica del programa.
      * @param args los argumentos de la línea de comandos
@@ -51,6 +54,10 @@ public class Coversiones {
         // 5. Comentario post produccion en clase de programacion Maycol Figueroa
         // 6. Comentario en respuesta al comentario anterior de maycol . ......
         // 7. Comentario final por santiago.
+        
+        double angulo = 45; // 45 grados en radianes
+        double resultado = calcularTangente(angulo);
+        System.out.println("La tangente de " + angulo + " radianes es: " + resultado);
     }
 }
 
