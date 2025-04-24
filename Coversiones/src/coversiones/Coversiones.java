@@ -24,7 +24,28 @@ public class Coversiones {
         System.out.println("Edad: " + Edad + " (Tipo: " + Edad.getClass().getSimpleName() + ")");
         System.out.println("Estatura: " + Estatura + " (Tipo: " + Estatura.getClass().getSimpleName() + ")");
         System.out.println("EstudianteActivo: " + EstudianteActivo + " (Tipo: " + EstudianteActivo.getClass().getSimpleName() + ")");
+        
+     
+        // 1. Nombre en código ASCII
+        System.out.print("Nombre en ASCII: ");
+        for (int i = 0; i < Nombre.length(); i++) {
+            System.out.print((int) Nombre.charAt(i) + " ");
+        }
+        System.out.println("(Tipo original: String → convertido a códigos ASCII enteros)");
+
+        // 2. Edad como carácter ASCII
+        char edadComoChar = (char)(int)Edad;
+        System.out.println("Edad como carácter ASCII: '" + edadComoChar + "' (Tipo original: Integer → convertido a char usando código ASCII)");
+
+        // 3. Estatura como Integer
+        Integer estaturaComoEntero = Estatura.intValue();
+        System.out.println("Estatura: " + estaturaComoEntero + " (Tipo original: Float → convertido a Integer)");
+
+        // 4. EstudianteActivo como String
+        String estudianteActivoComoString = EstudianteActivo.toString();
+        System.out.println("EstudianteActivo: " + estudianteActivoComoString + " (Tipo original: Boolean → convertido a String)");
+    }
 
     }
     
-}
+
